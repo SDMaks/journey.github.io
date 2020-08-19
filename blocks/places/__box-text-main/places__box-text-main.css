@@ -1,0 +1,51 @@
+.places__box-text-main {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
+
+
+@media screen and (min-width : 320px) and (max-width : 425px) {
+
+    .places__box-text-main {
+        padding-top: 21px;
+        padding-bottom: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 16px;
+        line-height: 169.43%;
+    }
+
+}
+
+@media screen and (min-width : 426px) and (max-width : 599px) {
+
+    .places__box-text-main {
+        padding-top: 21px;
+        padding-bottom: 0;
+        
+        font-size: 16px;
+        line-height: 169.43%;
+    }
+
+}
+
+@media screen and (min-width : 600px) and (max-width : 1023px) {
+    .places__box-text-main {
+        
+        
+        padding-top: 0;
+        padding-bottom: 24px;
+        /*padding-left: 1rem;
+        padding-right: 1rem;*/
+        font-size: 16px;
+        line-height: 27px;
+        /*margin-top: -9px;*/
+    }
+
+}

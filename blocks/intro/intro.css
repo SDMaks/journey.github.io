@@ -1,0 +1,30 @@
+
+@import url('_position/intro_position.css');
+
+
+@import url('__title/intro__title.css');
+
+@import url('__content-row/intro__content-row.css');
+@import url('__author-box/intro__author-box.css');
+@import url('__main-text/intro__main-text.css');
+@import url('__author-date/intro__author-date.css');
+@import url('__span-accent/intro__span-accent.css');
+@import url('__author-date/intro__author-date.css');
+@import url('__text/intro__text.css');
+@import url('__text-description/intro__text-description.css');
+
+.intro {
+    
+    font-family: 'Inter', Arial, sans-serif;
+    max-width: 984px;
+    
+    
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    
+    .intro {
+
+        max-width: 928px;
+    }
+}

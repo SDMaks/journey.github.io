@@ -1,0 +1,86 @@
+@import url('_position/places__box_position.css');
+@import url('_shirt-title/places__box_shirt-title.css');
+
+.places__box {
+    max-width: 984px;
+    padding: 0;
+}
+
+@media screen and (min-width : 320px) and (max-width : 599px) {
+    .places__box {
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+}
+
+@media screen and (min-width : 600px) and (max-width : 670px){
+    .places__box {
+        display: grid;
+
+        grid-template-areas:
+        "title website"
+        "image paragraph-container";
+         /*grid-column-gap: 10px;*/
+         grid-column-gap: 28px;
+         grid-row-gap: 36px;
+        
+    }
+
+}
+
+@media screen and (min-width : 671px) and (max-width : 1023px) {
+    .places__box {
+        display: grid;
+
+        grid-template-areas:
+        "title website"
+        "image paragraph-container";
+         grid-column-gap: 28px;
+         grid-row-gap: 48px;
+        
+    }
+
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    .places__box {
+        max-width: 984px;
+        /*max-height: 653px;*/
+        display: grid;
+       grid-template-columns: 440px 1fr;
+        grid-template-rows: 2fr;
+        grid-row-gap: 45px;
+        grid-column-gap: 32px;
+        
+    }
+
+}
+
+@media screen and (min-width : 1280px) and (max-width : 1439px) {
+    .places__box {
+        max-width: 984px;
+        display: grid;
+       grid-template-columns: 460px 1fr;
+        grid-template-rows: 2fr;
+        grid-row-gap: 49px;
+        grid-column-gap: 37px;
+        
+    }
+
+}
+
+@media screen and (min-width : 1440px) {
+    .places__box{
+
+    display: grid;
+   grid-template-columns: 460px 484px;
+    grid-template-rows: 133px 460px;
+    grid-row-gap: 51px;
+    grid-column-gap: 40px;
+
+    }
+}
+
+

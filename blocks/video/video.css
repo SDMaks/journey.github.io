@@ -1,0 +1,30 @@
+@import url('__title/video__title.css');
+@import url('__text/video__text.css');
+@import url('__box/video__box.css');
+
+
+@import url('__logo-play/video__logo-play.css');
+@import url('__time/video__time.css');
+@import url('__description/video__description.css');
+@import url('__author/video__author.css');
+@import url('__iframe/video__iframe.css');
+
+.video {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    margin-bottom: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    
+}
+
+@media screen and (min-width : 320px) and (max-width : 425px) {
+
+    .video {
+        width: 100%;
+        
+        
+    }
+
+}

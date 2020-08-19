@@ -1,0 +1,21 @@
+.intro__text-description {
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+      
+
+}
+
+@media screen and (min-width : 320px) and (max-width : 767px) {
+
+    .intro__text-description {
+        
+        font-size: 12px;
+        line-height: 19px;
+         
+    
+    }
+
+}

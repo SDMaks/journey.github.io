@@ -1,0 +1,8 @@
+@media screen and (min-width : 1440px)  {
+
+
+    .places__box.places__box_shirt-title {
+        grid-template-rows: 69px 460px;
+        /*max-height: 589px;*/
+    }
+    }

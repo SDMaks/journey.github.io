@@ -1,0 +1,48 @@
+
+.lead__imagine-box {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (min-width : 320px) and (max-width : 768px) {
+
+    .lead__imagine-box {
+        
+        margin: 0;
+    
+        }
+}
+
+@media screen and (min-width : 769px) and (max-width : 1024px) {
+
+    .lead__imagine-box {
+        
+        margin-right: 48px;
+        margin-left: 48px;
+    
+    
+    }
+}
+
+@media screen and (min-width : 1025px) and (max-width : 1279px) {
+
+    .lead__imagine-box {
+        
+        margin-right: 48px;
+        margin-left: 48px;
+    max-width: 928px;
+    
+    }
+}
+
+@media screen and (min-width : 1280px) and (max-width : 1439px) {
+
+    .lead__imagine-box {
+        
+        margin-right: 0;
+        margin-left: 0;
+    
+    
+    }
+}

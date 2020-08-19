@@ -1,0 +1,34 @@
+
+@import url('_active/header__language_active.css');
+
+.header__language {
+    font-size: 24px;
+    line-height: 24.23px;
+    font-weight: normal;
+    
+    margin-left: 18px;
+    text-decoration: none;
+    
+    word-spacing: 18px;
+    padding-bottom: 0;
+    color: #FFFFFF;
+    
+     
+}
+
+.header__language:hover {
+    opacity: .7;
+    transition: opacity 0.3s ease;
+     
+}
+
+@media screen and (min-width : 320px) and (max-width : 767px) {
+
+    .header__language {
+        font-size: 18px;
+        margin-left: 16px;
+        margin-top: 16px;
+    
+    
+    }
+}

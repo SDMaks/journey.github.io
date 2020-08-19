@@ -1,0 +1,28 @@
+.video__iframe_observatory {
+    background-image: url(../../../../images/video/video_kosmos.png);
+}
+
+@media screen and (min-width : 320px) and (max-width :374px) {
+
+    .video__iframe_observatory {
+                
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        min-height: 192px;
+    }
+    
+}
+
+@media screen and (min-width :375px) and (max-width : 425px) {
+
+    .video__iframe_observatory {
+     
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        min-height: 200px;
+    }
+    
+}
+

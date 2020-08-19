@@ -1,0 +1,21 @@
+.places__box-url-adress {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+
+
+.places__box-url-adress:hover {
+    opacity: .7;
+    transition: opacity 0.3s ease;
+}
+
+@media screen and (max-width : 767px) {
+
+    .places__box-url-adress {
+        display: none;
+    }
+}

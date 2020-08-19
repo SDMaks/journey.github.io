@@ -1,0 +1,74 @@
+@import url('__box/places__box.css');
+
+@import url('__box-title/places__box-title.css');
+@import url('__box-text-main/places__box-text-main.css');
+@import url('__box-url-adress/places__box-url-adress.css');
+@import url('__box-url/places__box-url.css');
+
+@import url('__box-mail/__box-mail.css');
+@import url('__images/places__images.css');
+@import url('__box-text/places__box-text.css');
+
+
+.places {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+@media screen and (min-width : 320px) and (max-width : 425px) {
+
+    .places {
+        
+        margin-top: 64px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width : 426px) and (max-width : 599px) {
+
+    .places {
+        
+        padding-top: 64px;
+        
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
+
+
+@media screen and (min-width : 600px) and (max-width : 768px) {
+
+    .places {
+        
+        padding-top: 102px;
+        
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width : 769px) and (max-width : 1279px) {
+
+    .places {
+        
+        padding-top: 110px;
+        
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
+

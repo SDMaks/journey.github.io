@@ -1,0 +1,118 @@
+
+
+@import url('_kamchatka/video__iframe_kamchatka.css');
+@import url('_observatory/video__iframe_observatory.css');
+
+
+
+
+.video__iframe {
+    max-width: 583px;
+    height: 323px;
+    height: 323;
+    max-height: 100%;
+    position: relative;
+    z-index: 3;
+   /* z-index: 0;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.video__iframe:before{
+    opacity: .5;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: #000000;
+    border-radius: 5px;
+
+  } 
+
+  .video__iframe:hover:before{
+    opacity: .8;
+    transition: opacity 0.9s ease;
+    display: block;
+    
+}
+
+@media screen and (min-width : 320px) and (max-width : 350px) {
+
+    .video__iframe {
+
+        
+        /*padding-left: 1rem;
+        padding-right: 1rem;
+        height: 192px;
+        background-size: contain;
+        /*transform: scale(1.1);*/
+        /*width: 288px;
+height: 192px;
+        
+       /* max-height: 200px;*/
+       
+      height: 192px;
+       margin-bottom: 8px;
+       max-height: 200px;
+       justify-content: flex-end;
+      /* box-sizing: border-box;*/
+
+    }
+
+}
+
+@media screen and (min-width : 350px) and (max-width : 425px) {
+
+    .video__iframe {
+
+       height: 200px;
+       margin-bottom: 8px;
+       justify-content: flex-end;
+
+    }
+
+}
+
+
+@media screen and (min-width : 426px) and (max-width : 1023px) {
+    .video__iframe {
+        max-width: 583px;
+        height: 200px;
+       
+        max-height: 100%;
+        position: relative;
+        z-index: 3;
+        /*overflow: hidden;*/
+        z-index: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /*display: block;*/
+        text-decoration: none;
+        border-radius: 5px;
+        font-family: 'Inter', Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        /*justify-content: space-between;*/
+    
+    }
+
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+
+    .video__iframe {
+        height: 28.125vw;
+    }
+}

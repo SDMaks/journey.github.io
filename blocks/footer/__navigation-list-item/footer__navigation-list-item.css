@@ -1,0 +1,21 @@
+
+.footer__navigation-list-item {
+    list-style-type: none;
+    display: inline;
+    
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.footer__navigation-list-item:hover {
+    opacity: .7;
+    transition: opacity 0.3s ease;
+}
+
+@media screen and (min-width : 320px) and (max-width : 425px) {
+    .footer__navigation-list-item {
+
+        padding-bottom: 15px;
+    }
+
+
+}

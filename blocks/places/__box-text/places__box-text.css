@@ -1,0 +1,7 @@
+@media screen and (min-width : 600px) and (max-width : 1023px) {
+
+    .places__box-text {
+        grid-area: paragraph-container;
+        height: auto;
+    }
+}

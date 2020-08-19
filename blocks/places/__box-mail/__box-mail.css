@@ -1,0 +1,14 @@
+@media screen and (min-width : 320px) and (max-width : 425px) {
+
+    .places__box-mail {
+        display: none;
+    }
+}
+
+@media screen and (min-width : 600px) and (max-width : 1023px) {
+
+    .places__box-mail {
+        grid-area: website;
+      /*  padding-bottom: 13px;*/
+}
+}

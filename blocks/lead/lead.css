@@ -1,0 +1,21 @@
+@import url('__title/lead__title.css');
+@import url('__main-text/lead__main-text.css');
+
+
+@import url('__main-imagine/lead__main-imagine.css');
+@import url('__imagine-box/lead__imagine-box.css');
+@import url('__imagine-text/lead__imagine-text.css');
+
+
+
+.lead {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', Arial, sans-serif;
+    
+    
+}
+
+

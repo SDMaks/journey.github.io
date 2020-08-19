@@ -1,0 +1,29 @@
+@import url('_position/places__box-url_position.css');
+
+.places__box-url {
+    color: #AAAAAA;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    padding-top: 5px;
+    margin-bottom: 7px;
+    margin-top: 73px;
+}
+
+
+
+@media screen and (min-width : 426px) and (max-width : 1023px) {
+
+    .places__box-url {
+        
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width : 767px) {
+
+    .places__box-url {
+        display: none;
+    }
+}
